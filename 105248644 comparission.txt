@@ -1,0 +1,25 @@
+test_size=0.20
+
+[[228 146]
+ [ 81 524]]
+              precision    recall  f1-score   support
+
+           0       0.74      0.61      0.67       374
+           1       0.78      0.87      0.82       605
+
+    accuracy                           0.77       979
+   macro avg       0.76      0.74      0.74       979
+weighted avg       0.77      0.77      0.76       979
+
+==========================
+
+[[323 242]
+ [104 800]]
+              precision    recall  f1-score   support
+
+           0       0.76      0.57      0.65       565
+           1       0.77      0.88      0.82       904
+
+    accuracy                           0.76      1469
+   macro avg       0.76      0.73      0.74      1469
+weighted avg       0.76      0.76      0.76      1469
