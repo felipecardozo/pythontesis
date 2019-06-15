@@ -16,7 +16,7 @@ print(dotadata.dtypes)
 X = dotadata.iloc[:, 0:8]
 y = dotadata.iloc[:, 8]
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.30)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.33)
 
 # Feature Scaler
 scaler = StandardScaler()

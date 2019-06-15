@@ -8,8 +8,9 @@ import numpy as np
 
 file = open("result.txt", "w+")
 
+
 def perform_data_player(player):
-    path = os.getcwd()+"/datasets"+"/output_" + player + ".csv"
+    path = os.getcwd() + "/datasets" + "/output_" + player + ".csv"
     print(path)
     # Read dataset to pandas dataframe
     dotadata = ""
@@ -37,18 +38,17 @@ def perform_data_player(player):
 
         file.write("player " + player)
         file.write("\n")
-        file.write("confusion_matrix ============================\n" )
+        file.write("confusion_matrix ============================\n")
         file.write(np.array2string(confusion))
         file.write("\n")
 
-        file.write("classification_report ============================\n" )
+        file.write("classification_report ============================\n")
         file.write(classification)
         file.write("\n")
 
 
     except FileNotFoundError:
-        print(player+" doesnt exist")
-
+        print(player + " doesnt exist")
 
 
 def iterate_players():
@@ -56,7 +56,7 @@ def iterate_players():
                "106573901", "132851371", "134556694", "159020918", "92423451",
                "116585378", "121769650", "184138153", "73562326", "87278757",
                "106863163", "125581247", "94296097", "94738847", "101695162",
-               "86745912", "94155156", "111620041", "41231571", "25907144" ]
+               "86745912", "94155156", "111620041", "41231571", "25907144"]
     for player in players:
         perform_data_player(player)
 
