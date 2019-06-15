@@ -1,4 +1,4 @@
-
+test_size=0.30 - hidden_layer_sizes=(10, 10, 10)
 
 player 105248644
 confusion_matrix ============================
