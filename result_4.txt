@@ -1,0 +1,338 @@
+test_size=0.20 - hidden_layer_sizes=(10)
+
+player 105248644
+confusion_matrix ============================
+[[216 156]
+ [166 441]]
+classification_report ============================
+              precision    recall  f1-score   support
+
+           0       0.57      0.58      0.57       372
+           1       0.74      0.73      0.73       607
+
+    accuracy                           0.67       979
+   macro avg       0.65      0.65      0.65       979
+weighted avg       0.67      0.67      0.67       979
+
+player 34505203
+confusion_matrix ============================
+[[ 11 418]
+ [  4 643]]
+classification_report ============================
+              precision    recall  f1-score   support
+
+           0       0.73      0.03      0.05       429
+           1       0.61      0.99      0.75       647
+
+    accuracy                           0.61      1076
+   macro avg       0.67      0.51      0.40      1076
+weighted avg       0.66      0.61      0.47      1076
+
+player 72312627
+confusion_matrix ============================
+[[282  15]
+ [343 137]]
+classification_report ============================
+              precision    recall  f1-score   support
+
+           0       0.45      0.95      0.61       297
+           1       0.90      0.29      0.43       480
+
+    accuracy                           0.54       777
+   macro avg       0.68      0.62      0.52       777
+weighted avg       0.73      0.54      0.50       777
+
+player 82262664
+confusion_matrix ============================
+[[ 17 266]
+ [  2 564]]
+classification_report ============================
+              precision    recall  f1-score   support
+
+           0       0.89      0.06      0.11       283
+           1       0.68      1.00      0.81       566
+
+    accuracy                           0.68       849
+   macro avg       0.79      0.53      0.46       849
+weighted avg       0.75      0.68      0.58       849
+
+player 101356886
+confusion_matrix ============================
+[[ 219  657]
+ [  63 1151]]
+classification_report ============================
+              precision    recall  f1-score   support
+
+           0       0.78      0.25      0.38       876
+           1       0.64      0.95      0.76      1214
+
+    accuracy                           0.66      2090
+   macro avg       0.71      0.60      0.57      2090
+weighted avg       0.70      0.66      0.60      2090
+
+player 106573901
+confusion_matrix ============================
+[[12 46]
+ [14 57]]
+classification_report ============================
+              precision    recall  f1-score   support
+
+           0       0.46      0.21      0.29        58
+           1       0.55      0.80      0.66        71
+
+    accuracy                           0.53       129
+   macro avg       0.51      0.50      0.47       129
+weighted avg       0.51      0.53      0.49       129
+
+player 132851371
+confusion_matrix ============================
+[[37 21]
+ [27 16]]
+classification_report ============================
+              precision    recall  f1-score   support
+
+           0       0.58      0.64      0.61        58
+           1       0.43      0.37      0.40        43
+
+    accuracy                           0.52       101
+   macro avg       0.51      0.51      0.50       101
+weighted avg       0.52      0.52      0.52       101
+
+player 134556694
+confusion_matrix ============================
+[[87  3]
+ [72  1]]
+classification_report ============================
+              precision    recall  f1-score   support
+
+           0       0.55      0.97      0.70        90
+           1       0.25      0.01      0.03        73
+
+    accuracy                           0.54       163
+   macro avg       0.40      0.49      0.36       163
+weighted avg       0.41      0.54      0.40       163
+
+player 159020918
+confusion_matrix ============================
+[[ 2 52]
+ [ 1 26]]
+classification_report ============================
+              precision    recall  f1-score   support
+
+           0       0.67      0.04      0.07        54
+           1       0.33      0.96      0.50        27
+
+    accuracy                           0.35        81
+   macro avg       0.50      0.50      0.28        81
+weighted avg       0.56      0.35      0.21        81
+
+player 92423451
+confusion_matrix ============================
+[[291  15]
+ [369  62]]
+classification_report ============================
+              precision    recall  f1-score   support
+
+           0       0.44      0.95      0.60       306
+           1       0.81      0.14      0.24       431
+
+    accuracy                           0.48       737
+   macro avg       0.62      0.55      0.42       737
+weighted avg       0.65      0.48      0.39       737
+
+player 116585378
+confusion_matrix ============================
+[[528  47]
+ [760 167]]
+classification_report ============================
+              precision    recall  f1-score   support
+
+           0       0.41      0.92      0.57       575
+           1       0.78      0.18      0.29       927
+
+    accuracy                           0.46      1502
+   macro avg       0.60      0.55      0.43      1502
+weighted avg       0.64      0.46      0.40      1502
+
+player 121769650
+confusion_matrix ============================
+[[226 113]
+ [129 348]]
+classification_report ============================
+              precision    recall  f1-score   support
+
+           0       0.64      0.67      0.65       339
+           1       0.75      0.73      0.74       477
+
+    accuracy                           0.70       816
+   macro avg       0.70      0.70      0.70       816
+weighted avg       0.71      0.70      0.70       816
+
+player 73562326
+confusion_matrix ============================
+[[115 170]
+ [ 38 494]]
+classification_report ============================
+              precision    recall  f1-score   support
+
+           0       0.75      0.40      0.53       285
+           1       0.74      0.93      0.83       532
+
+    accuracy                           0.75       817
+   macro avg       0.75      0.67      0.68       817
+weighted avg       0.75      0.75      0.72       817
+
+player 87278757
+confusion_matrix ============================
+[[186  88]
+ [162 457]]
+classification_report ============================
+              precision    recall  f1-score   support
+
+           0       0.53      0.68      0.60       274
+           1       0.84      0.74      0.79       619
+
+    accuracy                           0.72       893
+   macro avg       0.69      0.71      0.69       893
+weighted avg       0.75      0.72      0.73       893
+
+player 106863163
+confusion_matrix ============================
+[[ 310  578]
+ [  48 1224]]
+classification_report ============================
+              precision    recall  f1-score   support
+
+           0       0.87      0.35      0.50       888
+           1       0.68      0.96      0.80      1272
+
+    accuracy                           0.71      2160
+   macro avg       0.77      0.66      0.65      2160
+weighted avg       0.76      0.71      0.67      2160
+
+player 125581247
+confusion_matrix ============================
+[[768  75]
+ [754 335]]
+classification_report ============================
+              precision    recall  f1-score   support
+
+           0       0.50      0.91      0.65       843
+           1       0.82      0.31      0.45      1089
+
+    accuracy                           0.57      1932
+   macro avg       0.66      0.61      0.55      1932
+weighted avg       0.68      0.57      0.54      1932
+
+player 94296097
+confusion_matrix ============================
+[[  43  720]
+ [   9 1080]]
+classification_report ============================
+              precision    recall  f1-score   support
+
+           0       0.83      0.06      0.11       763
+           1       0.60      0.99      0.75      1089
+
+    accuracy                           0.61      1852
+   macro avg       0.71      0.52      0.43      1852
+weighted avg       0.69      0.61      0.48      1852
+
+player 94738847
+confusion_matrix ============================
+[[607  64]
+ [843 108]]
+classification_report ============================
+              precision    recall  f1-score   support
+
+           0       0.42      0.90      0.57       671
+           1       0.63      0.11      0.19       951
+
+    accuracy                           0.44      1622
+   macro avg       0.52      0.51      0.38      1622
+weighted avg       0.54      0.44      0.35      1622
+
+player 101695162
+confusion_matrix ============================
+[[489 230]
+ [235 859]]
+classification_report ============================
+              precision    recall  f1-score   support
+
+           0       0.68      0.68      0.68       719
+           1       0.79      0.79      0.79      1094
+
+    accuracy                           0.74      1813
+   macro avg       0.73      0.73      0.73      1813
+weighted avg       0.74      0.74      0.74      1813
+
+player 86745912
+confusion_matrix ============================
+[[409  10]
+ [591 110]]
+classification_report ============================
+              precision    recall  f1-score   support
+
+           0       0.41      0.98      0.58       419
+           1       0.92      0.16      0.27       701
+
+    accuracy                           0.46      1120
+   macro avg       0.66      0.57      0.42      1120
+weighted avg       0.73      0.46      0.38      1120
+
+player 94155156
+confusion_matrix ============================
+[[331   9]
+ [583  10]]
+classification_report ============================
+              precision    recall  f1-score   support
+
+           0       0.36      0.97      0.53       340
+           1       0.53      0.02      0.03       593
+
+    accuracy                           0.37       933
+   macro avg       0.44      0.50      0.28       933
+weighted avg       0.47      0.37      0.21       933
+
+player 111620041
+confusion_matrix ============================
+[[921  29]
+ [989 224]]
+classification_report ============================
+              precision    recall  f1-score   support
+
+           0       0.48      0.97      0.64       950
+           1       0.89      0.18      0.31      1213
+
+    accuracy                           0.53      2163
+   macro avg       0.68      0.58      0.47      2163
+weighted avg       0.71      0.53      0.45      2163
+
+player 41231571
+confusion_matrix ============================
+[[ 179  543]
+ [  40 1246]]
+classification_report ============================
+              precision    recall  f1-score   support
+
+           0       0.82      0.25      0.38       722
+           1       0.70      0.97      0.81      1286
+
+    accuracy                           0.71      2008
+   macro avg       0.76      0.61      0.60      2008
+weighted avg       0.74      0.71      0.66      2008
+
+player 25907144
+confusion_matrix ============================
+[[1274   20]
+ [1508  156]]
+classification_report ============================
+              precision    recall  f1-score   support
+
+           0       0.46      0.98      0.63      1294
+           1       0.89      0.09      0.17      1664
+
+    accuracy                           0.48      2958
+   macro avg       0.67      0.54      0.40      2958
+weighted avg       0.70      0.48      0.37      2958
+
