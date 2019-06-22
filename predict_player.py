@@ -16,6 +16,8 @@ print(dotadata.dtypes)
 X = dotadata.iloc[:, 0:8]
 y = dotadata.iloc[:, 8]
 
+
+
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.33)
 
 # Feature Scaler
@@ -31,5 +33,16 @@ mlp.fit(X_train, y_train.values.ravel())
 predictions = mlp.predict(X_test)
 
 #Evaluating the Algorithm
-print(confusion_matrix(y_test,predictions))
+confusionmatrix = confusion_matrix(y_test,predictions)
+print(confusionmatrix)
+total1=sum(sum(confusionmatrix))
+accuracy1=(confusionmatrix[0,0]+confusionmatrix[1,1])/total1
+print ('Accuracy               : ', accuracy1)
+
+sensitivity1 = confusionmatrix[0,0]/(confusionmatrix[0,0]+confusionmatrix[0,1])
+print('Sensitivity            : ', sensitivity1 )
+
+specificity1 = confusionmatrix[1,1]/(confusionmatrix[1,0]+confusionmatrix[1,1])
+print('Specificity            : ', specificity1)
+
 print(classification_report(y_test,predictions))

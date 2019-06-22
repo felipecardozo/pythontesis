@@ -19,9 +19,10 @@ def perform_data_player(player):
 
         # Assign data from first four columns to X variable
         X = dotadata.iloc[:, 0:8]
+        #X = dotadata.iloc[:, 0:1]
         y = dotadata.iloc[:, 8]
 
-        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.30)
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.33)
 
         # Feature Scaler
         scaler = StandardScaler()
@@ -46,6 +47,13 @@ def perform_data_player(player):
         file.write(classification)
         file.write("\n")
 
+        sensitivity1 = confusion[0, 0] / (confusion[0, 0] + confusion[0, 1])
+        file.write('Sensitivity            : ' + str(sensitivity1))
+        file.write("\n")
+        specificity1 = confusion[1, 1] / (confusion[1, 0] + confusion[1, 1])
+        file.write('Specificity            : ' + str(specificity1))
+        file.write("\n")
+        file.write("=====================================================\n")
 
     except FileNotFoundError:
         print(player + " doesnt exist")
